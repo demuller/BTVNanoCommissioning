@@ -30,7 +30,9 @@ def histogrammer(events, workflow):
     ### Workflow specific
     if "validation" == workflow:
         obj_list = ["jet0", "jet1"]
-    elif "ttcom" == workflow:
+    elif "TnP" == workflow:
+        obj_list = ["jet_tag", "jet_probe"]
+    elif "ttcom" == workflow or "example" == workflow:
         obj_list = ["mu", "ele"]
         for i in range(2):
             obj_list.append(f"jet{i}")

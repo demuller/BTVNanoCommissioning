@@ -5,6 +5,11 @@ from BTVNanoCommissioning.workflows.validation import (
     NanoProcessor as ValidationProcessor,
 )
 
+# TnP
+from BTVNanoCommissioning.workflows.TnP_BTagMu import (
+    NanoProcessor as TnPBTagMuProcessor,
+)
+
 # TTbar
 from BTVNanoCommissioning.workflows.ttbar_validation import (
     NanoProcessor as TTbarValidProcessor,
@@ -58,6 +63,9 @@ from BTVNanoCommissioning.workflows.BTA_ttbar_producer import (
 # FIXME - make names more systematic?
 workflows = {}
 workflows["validation"] = ValidationProcessor
+
+# TnP
+workflows["TnP_BTagMu"] = TnPBTagMuProcessor
 
 # TTBar
 workflows["ttcom"] = TTbarValidProcessor

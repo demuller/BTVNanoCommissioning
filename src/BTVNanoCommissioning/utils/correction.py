@@ -46,7 +46,7 @@ def load_SF(campaign, syst=False):
                         ext = extractor()
                         ext.add_weight_sets([f"* * {filename}"])
                         ext.finalize()
-                        correction_map["PU"] = ext.make_evaluator()["PU"]
+                        #correction_map["PU"] = ext.make_evaluator()["PU"]
         ## btag weight
         elif SF == "BTV":
             if os.path.exists(

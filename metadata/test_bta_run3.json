@@ -1,7 +1,5 @@
 {
-    "DoubleMuon_Run2022C-10Dec2022-v1":[
-        "root://eoscms.cern.ch//eos/cms/store/group/phys_btag/nano-commissioning/Run3/DoubleMu/nano_data2022ABCD_1.root"
-    ],
-    "TTto4Q_TuneCP5_13p6TeV_powheg-pythia8":["root://eoscms.cern.ch//eos/cms/store/user/coli/PFNano/2022/mc/TTto4Q_TuneCP5_13p6TeV_powheg-pythia8/PFNano_v1_Run3Summer22MiniAODv3-124X_v12-v4/230629_163448/0000/nano_mcRun3_8.root"]
-
+    "BTagMu_Run2022F-PromptReco-v1":[
+        "root://eoscms.cern.ch//eos/cms//store/group/cmst3/user/sewuchte/PFNano_Run3/data_2022FG_prompt/BTagMu/Run2022F-PromptReco-v1_BTV_Run3_2022_Comm_v2_NANOV11/230823_130919/0000/nano_data2022FG_101.root"
+    ]
 }
